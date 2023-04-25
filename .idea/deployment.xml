@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="serv" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="metallosfrera-serv">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="serv">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/auth" />
+            <excludedPath path="/desktop_app" />
+            <excludedPath path="/images" />
+            <excludedPath path="/pub" />
+            <excludedPath path="/upload" />
+            <excludedPath path="/bitrix/themes" />
+            <excludedPath path="/bitrix/activities" />
+            <excludedPath path="/bitrix/admin" />
+            <excludedPath path="/bitrix/blocks" />
+            <excludedPath path="/bitrix/cache" />
+            <excludedPath path="/bitrix/catalog_export" />
+            <excludedPath path="/bitrix/modules" />
+            <excludedPath path="/bitrix/otp" />
+            <excludedPath path="/bitrix" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
